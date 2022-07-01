@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9228" started-at="2022-07-01T11:37:22Z" finished-at="2022-07-01T11:37:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9228" started-at="2022-07-01T11:37:22Z" finished-at="2022-07-01T11:37:31Z">
+      <class name="day1.restday2">
+        <test-method status="PASS" signature="testcase1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:day1.restday2@34033bd0]" name="testcase1" duration-ms="3581" started-at="2022-07-01T17:07:22Z" data-provider="testdata" finished-at="2022-07-01T17:07:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[surya@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9879879870]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="LoginUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:day1.restday2@34033bd0]" name="LoginUser" duration-ms="1398" started-at="2022-07-01T17:07:26Z" data-provider="testdata" depends-on-methods="day1.restday2.testcase1" finished-at="2022-07-01T17:07:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[surya@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9879879870]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="getUser()[pri:0, instance:day1.restday2@34033bd0]" name="getUser" duration-ms="1410" started-at="2022-07-01T17:07:27Z" depends-on-methods="day1.restday2.testcase1" finished-at="2022-07-01T17:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="UpdateUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:day1.restday2@34033bd0]" name="UpdateUser" duration-ms="1428" started-at="2022-07-01T17:07:29Z" data-provider="testdata" depends-on-methods="day1.restday2.LoginUser" finished-at="2022-07-01T17:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[deep]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[surya@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[surya]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[9879879870]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:0, instance:day1.restday2@34033bd0]" name="deleteUser" duration-ms="1382" started-at="2022-07-01T17:07:30Z" depends-on-methods="day1.restday2.UpdateUser" finished-at="2022-07-01T17:07:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- day1.restday2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
